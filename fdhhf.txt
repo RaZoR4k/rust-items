@@ -1,0 +1,3306 @@
+// Начало конфига
+window.slider = {
+  timer: 10,
+  items: [
+    {
+      id: 1,
+      image: 'https://gspics.org/images/2024/02/15/0bi9NR.png'
+    },
+    {
+      id: 3,
+      image: 'https://gspics.org/images/2024/02/23/0bZXu7.png'
+    }
+  ]
+}
+window.socials = [
+  {
+    index: 1,
+    label: 'Вконтакте',
+    description: 'Получайте приятные бонусы',
+    type: 'vk',
+    url: 'https://vk.com/burp_rust'
+  },
+  {
+    index: 2,
+    label: 'Телеграм',
+    description: 'Получайте приятные бонусы',
+    type: 'telegram',
+    url: 'https://t.me/burp_rust'
+  },
+  {
+    index: 3,
+    label: 'Дискорд',
+    description: 'Получайте приятные бонусы',
+    type: 'discord',
+    url: 'https://discord.gg/TAxrN6XU2u'
+  }
+]
+  window.kits = [
+    {
+      id: 1,
+      name: 'Resources набор',
+      description: 'Набор для привилегии убийца',
+      command: '/kit убийца_res',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+          name: 'High Quality Metal',
+          count: 200
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+          name: 'Charcoal',
+          count: 8000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          name: 'Low Grade Fuel',
+          count: 1000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gunpowder.png',
+          name: 'Gunpowder',
+          count: 1500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+          name: 'Wood',
+          count: 15000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+          name: 'Stone',
+          count: 15000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+          name: 'Sulfur',
+          count: 4000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+          name: 'Cloth',
+          count: 1000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+          name: 'Leather',
+          count: 500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+          name: 'Scrap',
+          count: 200
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+          name: 'Metal Fragments',
+          count: 8000
+        }
+      ]
+    },
+    {
+      id: 2,
+      name: 'Resources набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_res',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+          name: 'High Quality Metal',
+          count: 300
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+          name: 'Charcoal',
+          count: 11000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          name: 'Low Grade Fuel',
+          count: 1500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gunpowder.png',
+          name: 'Gunpowder',
+          count: 2000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+          name: 'Wood',
+          count: 20000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+          name: 'Stone',
+          count: 20000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+          name: 'Sulfur',
+          count: 5000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+          name: 'Cloth',
+          count: 1500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+          name: 'Leather',
+          count: 800
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+          name: 'Scrap',
+          count: 300
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+          name: 'Metal Fragments',
+          count: 11000
+        }
+      ]
+    },
+    {
+      id: 3,
+      name: 'Resources набор',
+      description: 'Набор для привилегии умелый',
+      command: '/kit умелый_res',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+          name: 'High Quality Metal',
+          count: 400
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+          name: 'Charcoal',
+          count: 14000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          name: 'Low Grade Fuel',
+          count: 2000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gunpowder.png',
+          name: 'Gunpowder',
+          count: 2500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+          name: 'Wood',
+          count: 25000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+          name: 'Stone',
+          count: 25000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+          name: 'Sulfur',
+          count: 6000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+          name: 'Cloth',
+          count: 2000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+          name: 'Leather',
+          count: 1000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+          name: 'Scrap',
+          count: 400
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+          name: 'Metal Fragments',
+          count: 14000
+        }
+      ]
+    },
+    {
+     id: 4,
+      name: 'Resources набор',
+      description: 'Набор для привилегии мастер',
+      command: '/kit мастер_res',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+          name: 'High Quality Metal',
+          count: 500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+          name: 'Charcoal',
+          count: 18000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          name: 'Low Grade Fuel',
+          count: 2500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gunpowder.png',
+          name: 'Gunpowder',
+          count: 3000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+          name: 'Wood',
+          count: 30000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+          name: 'Stone',
+          count: 30000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+          name: 'Sulfur',
+          count: 7000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+          name: 'Cloth',
+          count: 2500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+          name: 'Leather',
+          count: 1300
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+          name: 'Scrap',
+          count: 500
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+          name: 'Metal Fragments',
+          count: 18000
+        }
+      ]
+    },
+    // Новые наборы
+    {
+      id: 5,
+      name: 'Components набор',
+      description: 'Набор для привилегии убийца',
+      command: '/kit убийца_comp',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+          name: 'SMG Body',
+          count: 2
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+          name: 'Metal Blade',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+          name: 'Gears',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+          name: 'Rifle Body',
+          count: 2
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+          name: 'Semi-Automatic Rifle Body',
+          count: 2
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+          name: 'Tarp',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+          name: 'Rope',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+          name: 'Road Sign',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+          name: 'Sheet Metal',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+          name: 'Spring',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+          name: 'Sewing Kit',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+          name: 'Metal Pipe',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+          name: 'Propane Tank',
+          count: 15
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+          name: 'Tech Trash',
+          count: 4
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/fuse.png',
+          name: 'Fuse',
+          count: 4
+        }
+      ]
+    },
+    {
+      id: 6,
+      name: 'Components набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_comp',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+          name: 'SMG Body',
+          count: 3
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+          name: 'Metal Blade',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+          name: 'Gears',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+          name: 'Rifle Body',
+          count: 3
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+          name: 'Semi-Automatic Rifle Body',
+          count: 3
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+          name: 'Tarp',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+          name: 'Rope',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+          name: 'Road Sign',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+          name: 'Sheet Metal',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+          name: 'Spring',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+          name: 'Sewing Kit',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+          name: 'Metal Pipe',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+          name: 'Propane Tank',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+          name: 'Tech Trash',
+          count: 6
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/fuse.png',
+          name: 'Fuse',
+          count: 6
+        }
+      ]
+    },
+    {
+      id: 7,
+      name: 'Components набор',
+      description: 'Набор для привилегии умелый',
+      command: '/kit умелый_comp',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+          name: 'SMG Body',
+          count: 4
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+          name: 'Metal Blade',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+          name: 'Gears',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+          name: 'Rifle Body',
+          count: 4
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+          name: 'Semi-Automatic Rifle Body',
+          count: 4
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+          name: 'Tarp',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+          name: 'Rope',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+          name: 'Road Sign',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+          name: 'Sheet Metal',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+          name: 'Spring',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+          name: 'Sewing Kit',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+          name: 'Metal Pipe',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+          name: 'Propane Tank',
+          count: 25
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+          name: 'Tech Trash',
+          count: 8
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/fuse.png',
+          name: 'Fuse',
+          count: 8
+        }
+      ]
+    },
+    {
+      id: 8,
+      name: 'Components набор',
+      description: 'Набор для привилегии мастер',
+      command: '/kit мастер_comp',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+          name: 'SMG Body',
+          count: 5
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+          name: 'Metal Blade',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+          name: 'Gears',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+          name: 'Rifle Body',
+          count: 5
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+          name: 'Semi-Automatic Rifle Body',
+          count: 5
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+          name: 'Tarp',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+          name: 'Rope',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+          name: 'Road Sign',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+          name: 'Sheet Metal',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+          name: 'Spring',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+          name: 'Sewing Kit',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+          name: 'Metal Pipe',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+          name: 'Propane Tank',
+          count: 30
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+          name: 'Tech Trash',
+          count: 10
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/fuse.png',
+          name: 'Fuse',
+          count: 10
+        }
+      ]
+    },
+    {
+      'id': 9,
+      'name': 'PVP набор',
+      'description': 'Набор для привилегии убийца',
+      'command': '/kit убийца_pvp',
+      'cooldown': '12ч',
+      'items': [
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/attire.hide.poncho.png',
+          'name': 'Hide Poncho',
+          'count': 1
+         },
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/attire.hide.vest.png',
+          'name': 'Hide Vest',
+           'count': 1
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/burlap.shoes.png',
+          'name': 'Burlap Shoes',
+          'count': 1
+        },
+         {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/attire.hide.pants.png',
+          'name': 'Hide Pants',
+          'count': 1
+        },
+       
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hat.wolf.png',
+           'name': 'Wolf Headdress',
+           'count': 1
+        },
+         {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/mask.bandana.png',
+          'name': 'Bandana Mask',
+          'count': 1
+        },
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/burlap.gloves.png',
+            'name': 'Burlap Gloves',
+            'count': 1
+        },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+          'name': '9mm Pistol Ammo',
+          'count': 120
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+          'name': 'Bandage',
+          'count': 4
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+          'name': 'Syringe',
+          'count': 4
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+          'name': 'Medkit',
+          'count': 1
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/smg.thompson.png',
+          'name': 'Thompson',
+          'count': 1
+        }
+      ]
+    },
+    {
+     'id': 10,
+     'name': 'PVP набор',
+     'description': 'Набор для привилегии охотник',
+     'command': '/kit охотник_pvp',
+     'cooldown': '12ч',
+     'items': [
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+          'name': 'Boots',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+         'count': 1
+       },
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/coffeecan.helmet.png',
+          'name': 'Coffee Can Helmet',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.jacket.png',
+         'name': 'Road Sign Jacket',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+        'name': 'Roadsign Gloves',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hazmatsuit.png',
+        'name':'Hazmat Suit',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+        'name': 'Bandage',
+        'count': 5
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 5
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+        'name': 'Medkit',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.semiauto.png',
+        'name': 'Semi-Automatic Rifle',
+        'count': 1
+       }
+      ]
+    },
+    {
+     'id': 11,
+     'name': 'PVP набор',
+     'description': 'Набор для привилегии умелый',
+     'command': '/kit умелый_pvp',
+     'cooldown': '12ч',
+     'items': [
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+        'name': 'Boots',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png',
+        'name': 'Metal Facemask',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.plate.torso.png',
+        'name': 'Metal Chest Plate',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+        'name': 'Roadsign Gloves',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hazmatsuit.png',
+        'name': 'Hazmat Suit',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+        'name': 'Bandage',
+        'count': 6
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 6
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+        'name': 'Medkit',
+        'count': 3
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.bolt.png',
+        'name': 'Bolt Action Rifle',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/smg.mp5.png',
+        'name': 'MP5A4',
+        'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+        'name': '9mm Pistol Ammo',
+        'count': 190
+        }
+      ]
+    },
+    {
+     'id': 12,
+     'name': 'PVP набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_pvp',
+     'cooldown': '12ч',
+     'items': [
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+       'name': 'Arctic Hoodie',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+       'name': 'Hoodie',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+       'name': 'Boots',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+       'name': 'Pants',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png',
+       'name': 'Metal Facemask',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.plate.torso.png',
+       'name': 'Metal Chest Plate',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+       'name': 'Roadsign Gloves',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+       'name': '5.56 Rifle Ammo',
+       'count': 256
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hazmatsuit.png',
+       'name': 'Hazmat Suit',
+       'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+        'name': 'Bandage',
+        'count': 6
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+       'name': 'Syringe',
+       'count': 6
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+        'name': 'Medkit',
+        'count': 3
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.l96.png',
+       'name': 'L96 Rifle',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.ak.png',
+       'name': 'Assault Rifle',
+       'count': 1
+        }
+      ]
+    },
+    {
+     'id': 13,
+     'name': 'Raid набор',
+     'description': 'Набор для привилегии убийца',
+     'command': '/kit убийца_raid',
+     'cooldown': '24ч',
+     'items': [
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+       'name': 'Satchel Charge',
+       'count': 8
+        }
+      ]
+    },
+    {
+     'id': 14,
+     'name': 'Raid набор',
+     'description': 'Набор для привилегии охотник',
+     'command': '/kit охотник_raid',
+     'cooldown': '24ч',
+     'items': [
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+       'name': 'Timed Explosive Charge',
+       'count': 2
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+       'name': 'Satchel Charge',
+       'count': 8
+        }
+      ]
+    },
+    {
+     'id': 15,
+     'name': 'Raid набор',
+     'description': 'Набор для привилегии умелый',
+     'command': '/kit умелый_raid',
+     'cooldown': '24',
+     'items': [
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+       'name': 'Timed Explosive Charge',
+       'count': 3
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.basic.png',
+       'name': 'Rocket',
+       'count': 4
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+       'name': 'Satchel Charge',
+       'count': 8
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rocket.launcher.png',
+       'name': 'Rocket Launcher',
+       'count': 1
+        }
+      ]
+    },
+    {
+     'id': 16,
+     'name': 'Raid набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_raid',
+     'cooldown': '24ч',
+     'items': [
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+       'name': 'Timed Explosive Charge',
+       'count': 5
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.basic.png',
+       'name': 'Rocket',
+       'count': 8
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+       'name': 'Satchel Charge',
+       'count': 12
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rocket.launcher.png',
+       'name': 'Rocket Launcher',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.hv.png',
+       'name': 'High Velocity Rocket',
+       'count': 10
+}
+      ]
+    },
+    {
+      id: 50,
+      name: 'Resources набор',
+      description: 'Набор для привилегии убийца',
+      command: '/kit убийца_res',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png",
+        "name": "Low Grade Fuel",
+        "count": 300
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/leather.png",
+        "name": "Leather",
+        "count": 200
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/cloth.png",
+        "name": "Cloth",
+        "count": 300
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.refined.png",
+        "name": "High Quality Metal",
+        "count": 20
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/stones.png",
+        "name": "Stone",
+        "count": 5000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/wood.png",
+        "name": "Wood",
+        "count": 3000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png",
+        "name": "Metal Fragments",
+        "count": 750
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/gunpowder.png",
+        "name": "Gunpowder",
+        "count": 400
+        }
+      ]
+    },
+    {
+      id: 51,
+      name: 'Resources набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_res',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png",
+        "name": "Low Grade Fuel",
+        "count": 300
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/leather.png",
+        "name": "Leather",
+        "count": 200
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/cloth.png",
+        "name": "Cloth",
+        "count": 300
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.refined.png",
+        "name": "High Quality Metal",
+        "count": 20
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/stones.png",
+        "name": "Stone",
+        "count": 5000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/wood.png",
+        "name": "Wood",
+        "count": 3000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png",
+        "name": "Metal Fragments",
+        "count": 750
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/gunpowder.png",
+        "name": "Gunpowder",
+        "count": 400
+        }
+      ]
+    },
+    {
+      'id': 17,
+      'name': 'Resources набор',
+      'description': 'Набор для привилегии умелый',
+      command: '/kit умелый_res',
+      'cooldown': '12ч',
+      'items': [
+         {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png",
+        "name": "Low Grade Fuel",
+        "count": 500
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/leather.png",
+        "name": "Leather",
+        "count": 300
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/cloth.png",
+        "name": "Cloth",
+        "count": 500
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.refined.png",
+        "name": "High Quality Metal",
+        "count": 40
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/stones.png",
+        "name": "Stone",
+        "count": 10000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/wood.png",
+        "name": "Wood",
+        "count": 8000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png",
+        "name": "Metal Fragments",
+        "count": 2000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/gunpowder.png",
+        "name": "Gunpowder",
+        "count": 1000
+        }
+      ]
+    },
+    {
+     'id': 18,
+     'name': 'Resources набор',
+     'description': 'Набор для привилегии мастер',
+     command: '/kit мастер_res',
+     'cooldown': '24',
+     'items': [
+       {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png",
+        "name": "Low Grade Fuel",
+        "count": 800
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/leather.png",
+        "name": "Leather",
+        "count": 1000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/cloth.png",
+        "name": "Cloth",
+        "count": 1500
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.refined.png",
+        "name": "High Quality Metal",
+        "count": 100
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/stones.png",
+        "name": "Stone",
+        "count": 15000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/wood.png",
+        "name": "Wood",
+        "count": 20000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png",
+        "name": "Metal Fragments",
+        "count": 5000
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/gunpowder.png",
+        "name": "Gunpowder",
+        "count": 2000
+        }
+      ]
+    },
+    {
+      id: 19,
+      name: 'Components набор',
+      description: 'Набор для привилегии убийца',
+      command: '/kit убийца_comp',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/scrap.png",
+        "name": "Scrap",
+        "count": 75
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/sewingkit.png",
+        "name": "Sewing Kit",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalspring.png",
+        "name": "Spring",
+        "count": 3
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalblade.png",
+        "name": "Metal Blade",
+        "count": 5
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/semibody.png",
+        "name": "Semi-Automatic Rifle Body",
+        "count": 3
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/roadsigns.png",
+        "name": "Road Sign",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/rope.png",
+        "name": "Rope",
+        "count": 10
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalpipe.png",
+        "name": "Metal Pipe",
+        "count": 10
+        }
+      ]
+    },
+    {
+      id: 20,
+      name: 'Components набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_comp',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/scrap.png",
+        "name": "Scrap",
+        "count": 75
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/sewingkit.png",
+        "name": "Sewing Kit",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalspring.png",
+        "name": "Spring",
+        "count": 3
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalblade.png",
+        "name": "Metal Blade",
+        "count": 5
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/semibody.png",
+        "name": "Semi-Automatic Rifle Body",
+        "count": 3
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/roadsigns.png",
+        "name": "Road Sign",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/rope.png",
+        "name": "Rope",
+        "count": 10
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalpipe.png",
+        "name": "Metal Pipe",
+        "count": 10
+        }
+      ]
+    },
+    {
+      id: 21,
+      name: 'Components набор',
+      description: 'Набор для привилегии умелый',
+      command: '/kit умелый_comp',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/scrap.png",
+        "name": "Scrap",
+        "count": 200
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/sewingkit.png",
+        "name": "Sewing Kit",
+        "count": 15
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalspring.png",
+        "name": "Spring",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalblade.png",
+        "name": "Metal Blade",
+        "count": 15
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/semibody.png",
+        "name": "Semi-Automatic Rifle Body",
+        "count": 8
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/roadsigns.png",
+        "name": "Road Sign",
+        "count": 16
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/rope.png",
+        "name": "Rope",
+        "count": 30
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalpipe.png",
+        "name": "Metal Pipe",
+        "count": 20
+        }
+      ]
+    },
+    {
+      id: 22,
+      name: 'Components набор',
+      description: 'Набор для привилегии мастер',
+      command: '/kit мастер_comp',
+      cooldown: '24ч',
+      items: [
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/scrap.png",
+        "name": "Scrap",
+        "count": 400
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/sewingkit.png",
+        "name": "Sewing Kit",
+        "count": 20
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalspring.png",
+        "name": "Spring",
+        "count": 15
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalblade.png",
+        "name": "Metal Blade",
+        "count": 20
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/semibody.png",
+        "name": "Semi-Automatic Rifle Body",
+        "count": 10
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/roadsigns.png",
+        "name": "Road Sign",
+        "count": 20
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/rope.png",
+        "name": "Rope",
+        "count": 50
+    },
+    {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/metalpipe.png",
+        "name": "Metal Pipe",
+        "count": 30
+       }
+      ]
+    },
+    {
+      'id': 23,
+      'name': 'PVP набор',
+      'description': 'Набор для привилегии убийца',
+      'command': '/kit убийца_pvp',
+      'cooldown': '12ч',
+      'items': [
+         {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hazmatsuit.png',
+        'name':'Hazmat Suit',
+        'count': 1
+        },
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pistol.semiauto.png',
+          'name': 'Semi-Automatic Pistol',
+           'count': 1
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+          'name': '9mm Pistol Ammo',
+          'count': 120
+        }
+      ]
+    },
+    {
+     'id': 24,
+     'name': 'PVP набор',
+     'description': 'Набор для привилегии охотник',
+     'command': '/kit охотник_pvp',
+     'cooldown': '12ч',
+     'items': [
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+          'name': 'Boots',
+         'count': 1
+        },
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/mask.bandana.png',
+          'name': 'Bandana Mask',
+          'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+        },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/attire.hide.poncho.png',
+          'name': 'Hide Poncho',
+          'count': 1
+        },
+       
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+         'count': 1
+        },
+         {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+        },
+        {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hat.wolf.png',
+           'name': 'Wolf Headdress',
+           'count': 1
+        },
+         {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.semiauto.png',
+        'name': 'Semi-Automatic Rifle',
+        'count': 1
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pistol.m92.png',
+          'name': 'M92 Pistol',
+          'count': 1
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+          'name': '9mm Pistol Ammo',
+          'count': 128
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+          'name': 'Bandage',
+          'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/sleepingbag.png',
+        'name': 'Sleeping Bag',
+        'count': 1 
+       }
+      ]
+    },
+    {
+     'id': 25,
+     'name': 'PVP набор',
+     'description': 'Набор для привилегии умелый',
+     'command': '/kit умелый_pvp',
+     'cooldown': '12ч',
+     'items': [
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+          'name': 'Boots',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+         'count': 1
+       },
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/coffeecan.helmet.png',
+          'name': 'Coffee Can Helmet',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.jacket.png',
+         'name': 'Road Sign Jacket',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+        'name': 'Roadsign Gloves',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ladder.wooden.wall.png',
+        'name': 'Wooden Ladder',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/largebackpack.png',
+        'name':'Large Backpack',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+          'name': '9mm Pistol Ammo',
+          'count': 128
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bed.png',
+        'name': 'bed',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.semiauto.png',
+        'name': 'Semi-Automatic Rifle',
+        'count': 1
+       },
+       {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/smg.thompson.png',
+          'name': 'Thompson',
+          'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+          'name': 'Bandage',
+          'count': 2
+       }
+      ]
+    },
+    {
+     'id': 26,
+     'name': 'PVP №1 набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_pvp1',
+     'cooldown': '12ч',
+     'items': [
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+          'name': 'Boots',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+         'count': 1
+       },
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/coffeecan.helmet.png',
+          'name': 'Coffee Can Helmet',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.jacket.png',
+         'name': 'Road Sign Jacket',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+        'name': 'Roadsign Gloves',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ladder.wooden.wall.png',
+        'name': 'Wooden Ladder',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/largebackpack.png',
+        'name':'Large Backpack',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+          'name': '9mm Pistol Ammo',
+          'count': 128
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/sleepingbag.png',
+        'name': 'Sleeping Bag',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.semiauto.png',
+        'name': 'Semi-Automatic Rifle',
+        'count': 1
+       },
+       {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/smg.thompson.png',
+          'name': 'Thompson',
+          'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+          'name': 'Bandage',
+          'count': 3
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ladder.wooden.wall.png',
+        'name': 'Wooden Ladder',
+        'count': 2
+       }
+      ]
+    },
+    {
+     'id': 27,
+     'name': 'PVP №2 набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_pvp2',
+     'cooldown': '24ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+        'name': 'Arctic Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        'name': 'Hoodie',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+          'name': 'Boots',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        'name': 'Pants',
+         'count': 1
+       },
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png',
+          'name': 'metal.facemask',
+         'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.plate.torso.png',
+         'name': 'metal.plate.torso',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+        'name': 'Roadsign Gloves',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ladder.wooden.wall.png',
+        'name': 'Wooden Ladder',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/largebackpack.png',
+        'name':'Large Backpack',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+        'name': '5.56 Rifle Ammo',
+        'count': 128
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bed.png',
+        'name': 'bed',
+        'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.ak.png',
+       'name': 'Assault Rifle',
+       'count': 1
+       },
+       {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.bolt.png',
+          'name': 'rifle.bolt',
+          'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        'name': 'Syringe',
+        'count': 2
+        },
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+          'name': 'Bandage',
+          'count': 3
+        },
+        {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ladder.wooden.wall.png',
+        'name': 'Wooden Ladder',
+        'count': 2
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rocket.launcher.png',
+       'name': 'Rocket Launcher',
+       'count': 1
+       },
+       {
+       'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.basic.png',
+       'name': 'Rocket',
+       'count': 3
+        }
+      ]
+    },
+    {
+     'id': 28,
+     'name': 'FARM набор',
+     'description': 'Набор для привилегии охотник',
+     'command': '/kit охотник_farm',
+     'cooldown': '6ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/jackhammer.png',
+        'name': 'jackhammer',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/chainsaw.png',
+        'name': 'chainsaw',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          'name': 'lowgradefuel',
+         'count': 50
+        }
+      ]
+    },
+    {
+    'id': 29,
+     'name': 'FARM набор',
+     'description': 'Набор для привилегии умелый',
+     'command': '/kit умелый_farm',
+     'cooldown': '6ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/jackhammer.png',
+        'name': 'jackhammer',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/chainsaw.png',
+        'name': 'chainsaw',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          'name': 'lowgradefuel',
+         'count': 50
+        }
+      ]
+    },
+    {
+     'id': 30,
+     'name': 'FARM набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_farm',
+     'cooldown': '6ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/jackhammer.png',
+        'name': 'jackhammer',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/chainsaw.png',
+        'name': 'chainsaw',
+        'count': 1
+       },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+          'name': 'lowgradefuel',
+         'count': 50
+        }
+      ]
+    },
+    {
+     'id': 31,
+     'name': 'DOP набор',
+     'description': 'Набор для привилегии охотник',
+     'command': '/kit охотник_dop',
+     'cooldown': '24ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/workbench1.png',
+        'name': 'workbench1',
+        'count': 1
+        }
+      ]
+    },
+    {
+     'id': 32,
+     'name': 'DOP набор',
+     'description': 'Набор для привилегии умелый',
+     'command': '/kit умелый_dop',
+     'cooldown': '24ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/workbench1.png',
+        'name': 'workbench1',
+        'count': 1
+        }
+      ]
+    },
+    {
+     'id': 33,
+     'name': 'DOP набор',
+     'description': 'Набор для привилегии мастер',
+     'command': '/kit мастер_dop',
+     'cooldown': '24ч',
+     'items': [
+       {
+         'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/workbench3.png',
+        'name': 'workbench3',
+        'count': 1
+        },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/furnace.large.png',
+        'name': 'furnace.large',
+        'count': 1
+        },
+       {
+        'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/small.oil.refinery.png',
+        'name': 'small.oil.refinery',
+        'count': 1
+        },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/storage_barrel_b.png',
+        'name': 'storage_barrel_b',
+        'count': 1
+        },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/gunrack.horizontal.png',
+        'name': 'gunrack.horizontal',
+        'count': 1
+        },
+       {
+        'imageURL': 'https://www.rustedit.io/images/imagelibrary/gunrack_wide.horizontal.png',
+        'name': 'gunrack_wide.horizontal',
+        'count': 1
+        }
+      ]
+    },
+    {
+    id: 34,
+    name: 'Resources набор',
+    description: 'Набор для привилегии убийца',
+    command: '/kit убийца_res',
+    cooldown: '24ч',
+    items: [
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+        name: 'Wood',
+        count: 10000
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+        name: 'Stone',
+        count: 15000
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+        name: 'Metal Fragments',
+        count: 10000
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+        name: 'Cloth',
+        count: 1000
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+        name: 'Leather',
+        count: 500
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+        name: 'High Quality Metal',
+        count: 300
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+        name: 'Scrap',
+        count: 1000
+      }
+    ]
+  },
+
+  // КОМПОНЕНТЫ
+  {
+    id: 35,
+    name: 'Components набор',
+    description: 'Набор для привилегии убийца',
+    command: '/kit убийца_comp',
+    cooldown: '24ч',
+    items: [
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+        name: 'Metal Pipe',
+        count: 15
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+        name: 'Metal Blade',
+        count: 15
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+        name: 'Semi-Automatic Rifle Body',
+        count: 10
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+        name: 'Rope',
+        count: 25
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+        name: 'Sewing Kit',
+        count: 25
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+        name: 'Spring',
+        count: 15
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+        name: 'SMG Body',
+        count: 3
+      }
+    ]
+  },
+
+  // ВЗРЫВЧАТКА
+  {
+    id: 36,
+    name: 'Raid набор',
+    description: 'Набор для привилегии убийца',
+    command: '/kit убийца_raid',
+    cooldown: '24ч',
+    items: [
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+        name: 'Satchel Charge',
+        count: 10
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/supply.signal.png',
+        name: 'Supply Signal',
+        count: 1
+      }
+    ]
+  },
+
+  // PVP
+  {
+    id: 37,
+    name: 'PVP набор',
+    description: 'Набор для привилегии убийца',
+    command: '/kit убийца_pvp',
+    cooldown: '6ч',
+    items: [
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/pistol.semiauto.png',
+        name: 'pistol.semiauto',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+        name: 'Syringe',
+        count: 5
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/bandage.png',
+        name: 'Bandage',
+        count: 5
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+        name: 'Medkit',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/attire.hide.boots.png',
+        name: 'attire.hide.boots',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+        name: 'Pants',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+        name: 'Hoodie',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/mask.bandana.png',
+        name: 'Bandana Mask',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/hat.wolf.png',
+        name: 'Wolf Headdress',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/jacket.png',
+        name: 'jacket',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/burlap.gloves.png',
+        name: 'burlap.gloves',
+        count: 1
+      },
+      {
+        imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.pistol.png',
+        name: '9mm Pistol Ammo',
+        count: 64
+      }
+    ]
+  },
+  {
+    id: 38,
+    name: 'DOP набор',
+    description: 'Набор для привилегии убийца',
+    command: '/kit убийца_dop',
+    cooldown: '2 раза за вайп',
+    items: [
+      {
+        imageURL: 'https://gspics.org/images/2017/10/09/2d1a50cd2615.png',
+        name: 'Fire Pickaxe',
+        count: 1
+      }
+    ]
+  },
+  {
+    id: 39,
+    name: 'Resources набор',
+    description: 'Набор для привилегии охотник',
+    command: '/kit охотник_res',
+    cooldown: '24ч',
+    items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+          name: 'Wood',
+          count: 20000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+          name: 'Stone',
+          count: 25000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+          name: 'Metal Fragments',
+          count: 10000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+          name: 'Cloth',
+          count: 1000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+          name: 'Leather',
+          count: 1000
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+          name: 'High Quality Metal',
+          count: 300
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+          name: 'Scrap',
+          count: 500
+        }
+      ]
+    },
+  
+    // КОМПОНЕНТЫ
+    {
+      id: 40,
+      name: 'Components набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_comp',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+          name: 'Metal Pipe',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+          name: 'sheetmetal',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+          name: 'Metal Blade',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+          name: 'gearse',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/semibody.png',
+          name: 'Semi-Automatic Rifle Body',
+          count: 5
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+          name: 'Rope',
+          count: 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+          name: 'Sewing Kit',
+          count: 40
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+          name: 'Stechparts',
+          count: 10
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+          name: 'Spring',
+          count: 20
+        },
+        {
+          "imageURL": "https://moscow-cdn.ru/rust/items/icons256/roadsigns.png",
+          "name": "Road Sign",
+          "count": 20
+        },
+        {
+        "imageURL": "https://moscow-cdn.ru/rust/items/icons256/tarp.png",
+        "name": "tarp",
+        "count": 20
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+          name: 'SMG Body',
+          count: 5
+        }
+      ]
+    },
+  
+    // ВЗРЫВЧАТКА
+    {
+      id: 41,
+      name: 'Raid набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_raid',
+      cooldown: '24ч',
+      items: [
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+          name: 'explosive.timed',
+          count: 3
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosive.satchel.png',
+          name: 'Satchel Charge',
+          count: 5
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.explosive.png',
+          name: 'ammo.rifle.explosive',
+          count: 128
+        },
+        {
+          imageURL: 'https://moscow-cdn.ru/rust/items/icons256/supply.signal.png',
+          name: 'Supply Signal',
+          count: 1
+        }
+      ]
+    },
+  
+    // PVP
+    {
+      id: 42,
+      name: 'PVP набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_pvp',
+      cooldown: '12ч',
+      items: [
+        {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+          'name': 'roadsign.kilt',
+          'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+          'name': 'Hoodie',
+          'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+            'name': 'Boots',
+           'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+          'name': 'Pants',
+           'count': 1
+         },
+         {
+           'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/coffeecan.helmet.png',
+            'name': 'Coffee Can Helmet',
+           'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.jacket.png',
+           'name': 'Road Sign Jacket',
+          'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+          'name': 'Roadsign Gloves',
+          'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/barricade.wood.cover.png',
+          'name': 'barricade.wood.cover',
+          'count': 5
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+          'name': '5.56 Rifle Ammo',
+          'count': 128
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/blueberries.png',
+          'name': 'blueberries',
+          'count': 5
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+          'name': 'Syringe',
+          'count': 5
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+          'name': 'Medkit',
+          'count': 1
+         },
+         {
+          'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.semiauto.png',
+          'name': 'Semi-Automatic Rifle',
+          'count': 1
+   }
+        ]
+      },
+      {
+          id: 44,
+          name: 'Resources набор',
+          description: 'Набор для привилегии умелый',
+          command: '/kit умелый_res',
+          cooldown: '24ч',
+          items: [
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+                name: 'Wood',
+                count: 20000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+                name: 'Stone',
+                count: 25000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+                name: 'Metal Fragments',
+                count: 20000
+              },
+              {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+                  name: 'lowgradefuel',
+                  count: 3000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+                name: 'Cloth',
+                count: 2000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+                name: 'Leather',
+                count: 2000
+              },
+              {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+                  name: 'sulfur',
+                  count: 20000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+                name: 'High Quality Metal',
+                count: 1000
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+                name: 'Scrap',
+                count: 1000
+              },
+              {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+                  name: 'charcoal',
+                  count: 50000
+              }
+            ]
+          },
+          {
+            id: 45,
+            name: 'Components набор',
+            description: 'Набор для привилегии умелый',
+            command: '/kit умелый_comp',
+            cooldown: '24ч',
+            items: [
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+                name: 'Metal Pipe',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+                name: 'sheetmetal',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+                name: 'Metal Blade',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+                name: 'gearse',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+                name: 'riflebody',
+                count: 5
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+                name: 'Rope',
+                count: 100
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+                name: 'Sewing Kit',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+                name: 'Stechparts',
+                count: 25
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+                name: 'Spring',
+                count: 45
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+                name: 'Road Sign',
+                count: 50
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+                name: 'tarp',
+                count: 20
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+                name: 'SMG Body',
+                count: 10
+              },
+              {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+                  name: 'propanetank',
+                  count: 50
+              }
+            ]
+          },
+          {
+            id: 46,
+            name: 'Raid набор',
+            description: 'Набор для привилегии умелый',
+            command: '/kit умелый_raid',
+            cooldown: '24ч',
+            items: [
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+                name: 'explosive.timed',
+                count: 5
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.basic.png',
+                name: 'ammo.rocket.basic',
+                count: 5
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rocket.launcher.png',
+                name: 'rocket.launcher',
+                count: 1
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.explosive.png',
+                name: 'ammo.rifle.explosive',
+                count: 256
+              },
+              {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/supply.signal.png',
+                name: 'Supply Signal',
+                count: 3
+              }
+            ]
+          },
+          {
+            id: 47,
+            name: 'PVP набор',
+            description: 'Набор для привилегии умелый',
+            command: '/kit умелый_pvp',
+            cooldown: '12ч',
+            items: [
+              {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+                'name': 'roadsign.kilt',
+                'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+                'name': 'Hoodie',
+                'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+                  'name': 'Boots',
+                 'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+                'name': 'Pants',
+                 'count': 1
+               },
+               {
+                 'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png',
+                  'name': 'metal.facemask',
+                 'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.plate.torso.png',
+                 'name': 'metal.plate.torso',
+                'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+                'name': 'Roadsign Gloves',
+                'count': 1
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/barricade.wood.cover.png',
+                'name': 'barricade.wood.cover',
+                'count': 10
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+                'name': '5.56 Rifle Ammo',
+                'count': 200
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/blueberries.png',
+                'name': 'blueberries',
+                'count': 20
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+                'name': 'Syringe',
+                'count': 15
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+                'name': 'Medkit',
+                'count': 5
+               },
+               {
+                'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.ak.png',
+                'name': 'rifle.ak',
+                'count': 1
+              }
+            ]
+          },
+          {
+            id: 48,
+            name: 'DOP набор',
+            description: 'Набор для привилегии умелый',
+            command: '/kit умелый_dop',
+            cooldown: '2 раза за вайп',
+            items: [
+              {
+                'imageURL': 'https://gspics.org/images/2018/09/14/19imR.png',
+                'name': 'Fire jackhammer',
+                'count': 1
+               },
+               {
+                imageURL: 'https://moscow-cdn.ru/rust/items/icons256/oretea.advanced.png',
+                name: 'oretea.advanced',
+                count: 1
+        }
+      ]
+    },
+    {
+      id: 43,
+      name: 'DOP набор',
+      description: 'Набор для привилегии охотник',
+      command: '/kit охотник_dop',
+      cooldown: '2 раза за вайп',
+      items: [
+        {
+          'imageURL': 'https://gspics.org/images/2017/10/09/865369ef67e6.png',
+          'name': 'Fire tool',
+          'count': 1
+         },
+         {
+          imageURL: 'https://gspics.org/images/2017/10/09/2d1a50cd2615.png',
+          name: 'Fire Pickaxe',
+          count: 1
+              }
+            ]
+          },
+          {
+            id: 300,
+            name: 'Resources набор',
+            description: 'Набор для привилегии мастер',
+            command: '/kit мастер_res',
+            cooldown: '24ч',
+            items: [
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/wood.png',
+                  name: 'Wood',
+                  count: 100000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/stones.png',
+                  name: 'Stone',
+                  count: 100000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.fragments.png',
+                  name: 'Metal Fragments',
+                  count: 70000
+                },
+                {
+                    imageURL: 'https://moscow-cdn.ru/rust/items/icons256/lowgradefuel.png',
+                    name: 'lowgradefuel',
+                    count: 5000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/cloth.png',
+                  name: 'Cloth',
+                  count: 5000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/leather.png',
+                  name: 'Leather',
+                  count: 5000
+                },
+                {
+                    imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sulfur.png',
+                    name: 'sulfur',
+                    count: 70000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metal.refined.png',
+                  name: 'High Quality Metal',
+                  count: 2000
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/scrap.png',
+                  name: 'Scrap',
+                  count: 2500
+                },
+                {
+                    imageURL: 'https://moscow-cdn.ru/rust/items/icons256/charcoal.png',
+                    name: 'charcoal',
+                    count: 100000
+                },
+                {
+                    imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosives.png',
+                    name: 'explosives',
+                    count: 500
+                }
+              ]
+            },
+            {
+              id: 301,
+              name: 'Components набор',
+              description: 'Набор для привилегии мастер',
+              command: '/kit мастер_comp',
+              cooldown: '24ч',
+              items: [
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalpipe.png',
+                  name: 'Metal Pipe',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sheetmetal.png',
+                  name: 'sheetmetal',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalblade.png',
+                  name: 'Metal Blade',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/gears.png',
+                  name: 'gearse',
+                  count: 50
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/riflebody.png',
+                  name: 'riflebody',
+                  count: 10
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rope.png',
+                  name: 'Rope',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/sewingkit.png',
+                  name: 'Sewing Kit',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/techparts.png',
+                  name: 'Stechparts',
+                  count: 50
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/metalspring.png',
+                  name: 'Spring',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/roadsigns.png',
+                  name: 'Road Sign',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/tarp.png',
+                  name: 'tarp',
+                  count: 100
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/smgbody.png',
+                  name: 'SMG Body',
+                  count: 20
+                },
+                {
+                    imageURL: 'https://moscow-cdn.ru/rust/items/icons256/propanetank.png',
+                    name: 'propanetank',
+                    count: 100
+                }
+              ]
+            },
+            {
+              id: 302,
+              name: 'Raid набор',
+              description: 'Набор для привилегии мастер',
+              command: '/kit мастер_raid',
+              cooldown: '24ч',
+              items: [
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/explosive.timed.png',
+                  name: 'explosive.timed',
+                  count: 8
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rocket.basic.png',
+                  name: 'ammo.rocket.basic',
+                  count: 12
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/rocket.launcher.png',
+                  name: 'rocket.launcher',
+                  count: 1
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.explosive.png',
+                  name: 'ammo.rifle.explosive',
+                  count: 256
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.explosive.png',
+                  name: 'ammo.rifle.explosive',
+                  count: 256
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/supply.signal.png',
+                  name: 'Supply Signal',
+                  count: 5
+                }
+              ]
+            },
+            {
+              id: 303,
+              name: 'PVP набор',
+              description: 'Набор для привилегии мастер',
+              command: '/kit мастер_pvp',
+              cooldown: '12ч',
+              items: [
+                {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.kilt.png',
+                  'name': 'roadsign.kilt',
+                  'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/hoodie.png',
+                  'name': 'Hoodie',
+                  'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/shoes.boots.png',
+                    'name': 'Boots',
+                   'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/pants.png',
+                  'name': 'Pants',
+                   'count': 1
+                 },
+                 {
+                   'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.facemask.png',
+                    'name': 'metal.facemask',
+                   'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/metal.plate.torso.png',
+                   'name': 'metal.plate.torso',
+                  'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/roadsign.gloves.png',
+                  'name': 'Roadsign Gloves',
+                  'count': 1
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/barricade.wood.cover.png',
+                  'name': 'barricade.wood.cover',
+                  'count': 10
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/ammo.rifle.png',
+                  'name': '5.56 Rifle Ammo',
+                  'count': 200
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/blueberries.png',
+                  'name': 'blueberries',
+                  'count': 20
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/syringe.medical.png',
+                  'name': 'Syringe',
+                  'count': 15
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/largemedkit.png',
+                  'name': 'Medkit',
+                  'count': 5
+                 },
+                 {
+                  'imageURL': 'https://moscow-cdn.ru/rust/items/icons256/rifle.ak.png',
+                  'name': 'rifle.ak',
+                  'count': 1
+                }
+              ]
+            },
+            {
+              id: 304,
+              name: 'DOP набор',
+              description: 'Набор для привилегии мастер',
+              command: '/kit мастер_dop',
+              cooldown: '2 раза за вайп',
+              items: [
+                {
+                  'imageURL': 'https://gspics.org/images/2018/09/14/19imR.png',
+                  'name': 'Fire jackhammer',
+                  'count': 1
+                 },
+                 {
+                  imageURL: 'https://gspics.org/images/2025/01/10/ICxWED.png',
+                  name: 'Fire chainsaw',
+                  count: 1
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/oretea.pure.png',
+                  name: 'oretea.pure',
+                  count: 1
+                },
+                {
+                  imageURL: 'https://moscow-cdn.ru/rust/items/icons256/woodtea.pure.png',
+                  name: 'woodtea.pure',
+                  count: 1
+                }
+              ]
+            },
+            {
+                id: 305,
+                name: 'REC набор',
+                description: 'Набор для привилегии мастер',
+                command: '/kit мастер_rec',
+                cooldown: '1 раз за вайп',
+                items: [
+                  {
+                    'imageURL': 'https://i.imgur.com/oehJX4T.png',
+                    'name': 'recycler',
+                    'count': 1
+      }
+    ]
+  }
+]
+window.descriptionOfServers = [
+  {
+      description: "X2 [NOLIMIT]"
+  },
+  {
+      description: "X1.5 [NOLIMIT]"
+  },
+  {
+      description: "X5 [NOLIMIT]"
+  },
+  {
+      description: "X5 [MAX3]"
+  }
+]
+window.categories = [
+  {
+    textColor: 'rgb(179, 56, 255)',
+    bgColor: 'rgba(179, 56, 255, 0.1)',
+    imgURL: 'https://i.ibb.co/bJDJkNk/Vector.webp'
+  },
+  {
+    textColor: 'rgb(255, 152, 56)',
+    bgColor: 'rgba(255, 152, 56, 0.1)'
+  },
+  {
+    textColor: 'rgb(255, 56, 56)',
+    bgColor: 'rgba(255, 56, 56, 0.1)'
+  }
+]
+window.rules = [
+  {
+    title: 'Основные правила для игроков',
+    items: [
+      '- Согласие с правилами: Играя на сервере, вы автоматически соглашаетесь со всеми правилами и обязуетесь их соблюдать.',
+      '- Незнание не освобождает: Незнание правил не освобождает от ответственности за их нарушение.',
+      '- Равенство перед правилами: Правила распространяются на всех игроков, независимо от донат-статуса или должности в модерации.',
+      '- Право на изменение правил: Администрация имеет право изменять правила в любое время без предварительного уведомления игроков.',
+      '- Право на определение наказаний: Администрация и модерация имеют право самостоятельно определять наказания за нарушения.',
+      '- Блокировка за прошлые нарушения: Администрация и модерация имеют право блокировать игроков за наличие блокировок на других проектах (при наличии доказательств).',
+      '- Необязанность предоставления доказательств: Администрация и модерация не обязаны предоставлять доказательства нарушений или объяснять блокировки, это делается по их личному усмотрению.',
+      '- Запрет подкупа: Запрещены попытки подкупа модерации или администрации.',
+      '- Запрет обмана: Запрещены попытки обмана или введения в заблуждение модерации или администрации.',
+      '- Отказ от компенсаций: Администрация не компенсирует потерянные предметы из-за ошибок игроков, багов игры или взаимодействия с нарушителями.',
+      '- Цель: Создание честной, комфортной и уважительной игровой среды.'
+    ]
+  },
+  {
+    title: 'Правила для игроков',
+    items: [
+      '- Уважение к модерации и игрокам: Запрещено унижать, оскорблять, подрывать авторитет модерации или других игроков в любых общественных каналах и на игровом сервере.',
+      '  Наказание: Первое нарушение: Мут на 24 часа (в зависимости от тяжести). Повторное нарушение: Бан на 1-7 дней (в зависимости от тяжести). Систематические нарушения: Постоянный бан.',
+      '- Сотрудничество при проверках: Игрок обязан сотрудничать с проверяющим, не вводить в заблуждение, не проявлять неуважение.',
+      '  Наказание: Серьезное нарушение (отказ, обман): Бан на 1-навсегда дня. Систематическое препятствие: Постоянный бан.',
+      '- Обжалование действий проверяющего: Игрок имеет право подать жалобу, если проверяющий вел себя неподобающе, приложив доказательства.',
+      '  Примечание: Необоснованная жалоба (без доказательств) может привести к наказанию как за препятствие проверке.',
+      '- Запрещённое ПО: Запрещено использование, распространение читов, макросов и любого ПО, упрощающего игровой процесс. Запрещено хранение или покупка запрещённого ПО.',
+      '  Наказание: Постоянный бан.',
+      '- Использование багов и недоработок: Запрещено использование и распространение багов и недоработок игры. Запрещено использование багов серверных плагинов и модов.',
+      '  Наказание: Первое нарушение: Бан на 1-7 дней (в зависимости от тяжести). Повторное нарушение: Постоянный бан. При обнаружении бага - сообщите администрации.',
+      '- Токсичное поведение и гриферство: Запрещено токсичное поведение в чате, оскорбления, угрозы и разжигание конфликтов между игроками. Запрещено использование неприемлемого контента в имени персонажа, клана, на табличках.',
+      '  Запрещено спамить в игровом или голосовом чате сервера.',
+      '  Наказание: Первое нарушение: Мут на 1-24 часа. Повторное нарушение: Мут на 24-72 часа или бан на 1-7 дней. Систематические нарушения: Бан на 7 дней или постоянный бан.'
+    ]
+  },
+  {
+    title: 'Прочие правила игрового процесса',
+    items: [
+      '- Запрещено размещать рекламу других проектов.',
+      '- Запрещено использовать ботов, автокликеры или любые другие средства автоматизации, предоставляющие преимущества.',
+      '  Наказание: В зависимости от тяжести нарушения - бан на 1-7 дней или постоянный бан.'
+    ]
+  },
+  {
+    title: 'Правила взаимодействия с администрацией',
+    items: [
+      '- Запрет споров в публичных каналах: Запрещено спорить с администрацией сервера или оспаривать их решения в публичных каналах без конкретных оснований.',
+      '- Порядок обжалования: Если вы считаете действия администрации необоснованными, обращайтесь через указанные каналы связи или подавайте апелляцию.',
+      '- Запрет обмана администрации: Запрещено вводить администрацию в заблуждение, предоставляя ложную информацию о произошедших событиях.',
+      '- Право на изменения: Администрация оставляет за собой право менять правила или вводить дополнительные ограничения для сохранения баланса или стабильности проекта.',
+      '- Уважительное общение: Любые обращения в адрес администрации должны быть корректными и уважительными.'
+    ]
+  },
+  {
+    title: 'Ответственность за нарушение правил',
+    items: [
+      '- Блокировка за нарушения: В случае нарушения правил игрок может быть заблокирован на сервере на определённое время или навсегда, в зависимости от степени нарушения.',
+      '- Право на удаление контента: Администрация оставляет за собой право удалить любое содержимое, нарушающее правила, без предварительного уведомления игрока.',
+      '- Ответственность на других платформах: В случаях особо серьёзных нарушений администрация вправе привлечь игрока к ответственности на других проектах или платформах.',
+      '- Передача информации о нарушениях: При необходимости администрация может передать информацию о нарушениях в сообщества других серверов для предотвращения повторных случаев.'
+    ]
+  },
+  {
+    title: 'Пояснения',
+    items: [
+      '- Структурированность: Правила разбиты на логические разделы.',
+      '- Конкретика: Добавлены конкретные примеры нарушений и наказаний.',
+      '- Обеспечение последовательности: Эти правила помогут поддерживать порядок, справедливость и комфорт на вашем сервере.'
+    ]
+  }
+]
+window.wipeblock = [
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/shotgun.double.png',
+    blockTime: '1ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/pistol.revolver.png',
+    blockTime: '1ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/pistol.python.png',
+    blockTime: '2ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/pistol.semiauto.png',
+    blockTime: '2ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/pistol.m92.png',
+    blockTime: '2ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/shotgun.pump.png',
+    blockTime: '2ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/shotgun.spas12.png',
+    blockTime: '2ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/smg.2.png',
+    blockTime: '3ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/smg.thompson.png',
+    blockTime: '3ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.semiauto.png',
+    blockTime: '4ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/smg.mp5.png',
+    blockTime: '4ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.ak.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.lr300.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.m39.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.bolt.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rifle.l96.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/lmg.m249.png',
+    blockTime: '11ч 15мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/multiplegrenadelauncher.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/rocket.launcher.png',
+    blockTime: '24ч'
+  },
+  // Снаряжение
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/roadsign.gloves.png',
+    blockTime: '4ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/metal.facemask.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/metal.plate.torso.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/roadsign.kilt.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/roadsign.jacket.png',
+    blockTime: '7ч 30мин'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/coffeecan.helmet.png',
+    blockTime: '7ч 30мин'
+  },
+  // Взрывчатка
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/grenade.f1.png',
+    blockTime: '14ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/grenade.beancan.png',
+    blockTime: '18ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/explosive.satchel.png',
+    blockTime: '20ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.rifle.explosive.png',
+    blockTime: '21ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/explosive.timed.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.grenadelauncher.smoke.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.grenadelauncher.buckshot.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.grenadelauncher.he.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.rocket.fire.png',
+    blockTime: '24ч'
+  },
+  {
+    imageURL: 'https://static.moscow.ovh/images/games/rust/icons/ammo.rocket.basic.png',
+    blockTime: '24ч'
+  }
+]
+// Конец конфига
+
+
+
+function main (){ 
+  const addPreConnect = () => {
+    const newLink = document.createElement('link')
+    newLink.rel = 'preconnect'
+    newLink.href = 'https://cdn.jsdelivr.net'
+
+    document.head.appendChild(newLink)
+  }
+
+  const addNewJSScript = () => {
+    const newScript = document.createElement('script')
+    newScript.src = 'https://cdn.jsdelivr.net/gh/HolingHoman/_1_OxideRust@burprust.v.1.0/dist/assets/index-8RHz-5NP.js'
+
+    newScript.async = true
+    newScript.onload = () => {
+      console.log('Script loaded successfully')
+    }
+
+    newScript.onerror = () => {
+      console.log('Error loading script')
+    }
+
+    document.body.appendChild(newScript)
+  }
+
+  addPreConnect()
+  addNewJSScript()
+}
+
+main()
